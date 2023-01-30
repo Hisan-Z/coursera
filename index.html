@@ -1,41 +1,100 @@
-<!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" href="css/style.css">
-   </head>
+        <meta charset="UTF-8"  >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+             .title{
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: xx-large;
+            font-family:cursive;
+             }
+             .one, .two, .three{
+                
+                background: green; 
+                padding: 6px 90px;
+                
+
+            }
+            
+            .one{
+                background-color: rgb(255, 162, 0);
+                
+            }
+            .item{
+            position: relative;
+            top: 0;
+            background-color:#d3d2d2;
+            margin: 15px;
+            padding: 33px;
+            border: 3px solid #000;
+        }
+        
+        .nav-item:hover{
+            background-color: rgb(56, 67, 78);
+            border: whitesmoke 2px solid;
+            
+        }
+        </style>
+    </head>
     <body>
-        <div class="title">Our Menu</div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="item">
-                        
-                            <div class="one">
-                                Chicken
-                            </div>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <div class="navbar-brand">
+                <span class="title">FOOD,LLC</h3>
+            </div>
+                <button class="navbar-toggler btn btn-outline-light d-block d-sm-none" data-bs-target="#link" data-bs-toggle="collapse" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="row collapse navbar-collapse" id="link">
 
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique accusamus dolores id laborum maxime ipsa voluptate ipsam nostrum explicabo enim. Fugiat voluptatem ab minus! Ab magni nisi quis tempora.
-                            Velit, ipsam. Pariatur adipisci accusamus minima nisi est vero sit perferendis hic quam atque, voluptatibus illum, ducimus dolorem nobis explicabo officia odio soluta doloremque provident nemo similique, id debitis. Odit.
-                            Nihil dicta ratione laboriosam, laudantium tempore placeat quis harum. Quo tenetur voluptatum eius beatae enim dolorum minus maxime odio vero fugit eligendi quisquam dignissimos quidem, sequi ab excepturi perferendis nesciunt!
+                    <ul class="navbar nav d-block d-sm-none">
+                        <li class="nav-item col-12"><a href="#" class="nav-link text-white">Chicken</a></li>
+                        <li  class="nav-item col-12"><a href="#" class="nav-link text-white">Beef</a></li>
+                        <li  class="nav-item col-12"><a href="#" class="nav-link text-white">Sushi</a></li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="col-lg-4">
-                <div class="item">
-                    
-                        <div class="two">Beef</div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique accusamus dolores id laborum maxime ipsa voluptate ipsam nostrum explicabo enim. Fugiat voluptatem ab minus! Ab magni nisi quis tempora.
-                    Velit, ipsam. Pariatur adipisci accusamus minima nisi est vero sit perferendis hic quam atque, voluptatibus illum, ducimus dolorem nobis explicabo officia odio soluta doloremque provident nemo similique, id debitis. Odit.
-                    Nihil dicta ratione laboriosam, laudantium tempore placeat quis harum. Quo tenetur voluptatum eius beatae enim dolorum minus maxime odio vero fugit eligendi quisquam dignissimos quidem, sequi ab excepturi perferendis nesciunt!
+            
+        </nav>
+        <div class="container">
+            <div class="title">
+                Our Menu
             </div>
-        </div>
-            <div class="col-lg-4 col-lg-full">
-                <div class="item">
-                    <div class="three">Sushi</div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique accusamus dolores id laborum maxime ipsa voluptate ipsam nostrum explicabo enim. Fugiat voluptatem ab minus! Ab magni nisi quis tempora.
-                    Velit, ipsam. Pariatur adipisci accusamus minima nisi est vero sit perferendis hic quam atque, voluptatibus illum, ducimus dolorem nobis explicabo officia odio soluta doloremque provident nemo similique, id debitis. Odit.
-                    Nihil dicta ratione laboriosam, laudantium tempore placeat quis harum. Quo tenetur voluptatum eius beatae enim dolorum minus maxime odio vero fugit eligendi quisquam dignissimos quidem, sequi ab excepturi perferendis nesciunt!
-        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="item">
+                            
+                        <div class="display-6 font-weight-bold text-center">
+                            Chicken
+                        </div>
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique accusamus dolores id laborum maxime ipsa voluptate ipsam nostrum explicabo enim. Fugiat voluptatem ab minus! Ab magni nisi quis tempora.
+                        Velit, ipsam. Pariatur adipisci accusamus minima nisi est vero sit perferendis hic quam atque, voluptatibus illum, ducimus dolorem nobis explicabo officia odio soluta doloremque provident nemo similique, id debitis. Odit.
+                        Nihil dicta ratione laboriosam, laudantium tempore placeat quis harum. Quo tenetur voluptatum eius beatae enim dolorum minus maxime odio vero fugit eligendi quisquam dignissimos quidem, sequi ab excepturi perferendis nesciunt!       
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, optio nostrum cumque nemo ullam blanditiis debitis earum est itaque voluptates. Atque facere aspernatur consequatur natus, iste eius amet harum distinctio.
+                        Eum sint quisquam, blanditiis, velit repellendus doloremque fugiat veniam distinctio pariatur ipsam vitae quidem at corrupti enim dicta eos quia laudantium! Doloremque ipsam nemo dolorem aliquid quas libero sapiente ratione.
+                        Qui at soluta quod quaerat itaque architecto ex maxime officiis nesciunt nam, tenetur quisquam perferendis dolor consequuntur numquam excepturi optio doloremque error temporibus quae repellat molestias quidem magnam. Tenetur, ipsum!
+                        Ipsum recusandae pariatur quae. Ratione laboriosam, ducimus accusamus quidem repellendus sunt voluptatem eveniet mollitia animi qui omnis quisquam optio beatae ad eos alias, exercitationem modi. Aliquam, corporis laudantium? Molestias, doloribus.
+                        Repellendus modi itaque explicabo? Et eligendi harum dignissimos neque repudiandae odit atque, iure sapiente, quia fugit, aspernatur qui sit assumenda! Possimus minima, blanditiis necessitatibus harum deleniti excepturi est placeat error!
+                        Numquam optio tempora itaque beatae totam architecto repudiandae harum, eligendi vitae voluptates vel excepturi cupiditate ducimus dolores eum sapiente nisi commodi minima maiores. Ratione nesciunt hic vero, fuga sunt blanditiis.
+                        Explicabo voluptatum animi voluptate sequi, cumque neque eveniet reiciendis fugit sint numquam tenetur. Laborum suscipit voluptatibus est praesentium quod itaque? Nostrum a blanditiis praesentium ratione in, voluptates quaerat distinctio est.
+                        Consequuntur cum, magni accusamus maxime rerum voluptatibus, deleniti consequatur accusantium harum dolorum quos eaque amet libero cupiditate, voluptates laboriosam illum! At, voluptatibus et aspernatur dolor corporis dolorum vitae adipisci pariatur.
+                        Dolorem reiciendis, suscipit neque dolore ipsam ut fuga illum nobis. Distinctio, cum labore nostrum vel deserunt voluptate alias, suscipit molestias quas temporibus voluptatum, expedita nam aspernatur neque illum officia provident?
+                        Eveniet voluptas laborum reprehenderit libero asperiores fugit facere illo cum vitae quos. Suscipit itaque nobis ipsam molestias architecto sint est in accusamus ab soluta. Delectus atque facere laudantium illum alias.
+                        Natus, blanditiis. Pariatur excepturi consequatur perspiciatis repudiandae adipisci odio eum vitae, numquam ipsam nisi ipsa. Repellendus corrupti, unde nam excepturi sapiente minima vel rerum ipsam cumque nihil magnam mollitia voluptatum.
+                        Delectus officia dolorem dolor. Iure facere saepe impedit quidem expedita ad, ipsum culpa repellendus officia, possimus obcaecati distinctio nulla architecto facilis, maiores voluptas quisquam accusantium officiis? Cumque eveniet eligendi laborum?
+                        Minus, voluptatum recusandae aspernatur at harum perferendis placeat iure eius ad. Ipsam dolor non quae sed? Error corporis, at laboriosam tempore doloremque quasi expedita eos. Vel doloribus voluptas adipisci qui.
+                        Est doloribus, eos sequi quam inventore soluta laboriosam eligendi expedita, laudantium omnis deserunt necessitatibus eius mollitia ad magnam dolorem harum rerum temporibus tempora suscipit sunt sed consequatur modi! Voluptate, quae!
+                        Modi laboriosam veritatis veniam eligendi. Atque voluptatem eveniet, beatae eum tempore ullam earum veritatis, explicabo aliquam in quaerat voluptatum voluptatibus? Delectus fugit inventore illo in. Ut sint vitae dignissimos expedita?
+                        Consectetur, cum? Eaque veritatis porro sunt facilis suscipit, non pariatur tempora repudiandae eius iure omnis voluptatem reprehenderit cumque velit quo minima excepturi rem veniam ab, odit, ut nemo expedita? Doloremque.           
+                    </div>
+                </div>
             </div>
         </div>
     </body>
-</html>
+ </html>
